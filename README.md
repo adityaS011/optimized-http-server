@@ -30,11 +30,16 @@ n: File name (required).
 m: Line number (optional).
 Examples:
 
-Retrieve entire content of a file: http://localhost:8080/data?n=1
-Retrieve specific line from a file: http://localhost:8080/data?n=1&m=3
-Docker Compatibility
+- Retrieve entire content of a file: http://localhost:8080/data?n=1
+- Retrieve specific line from a file: http://localhost:8080/data?n=1&m=3
+
+### Docker Compatibility
 The Dockerfile is designed to work on both ARM and x86 architectures. Ensure Docker is installed on your system.
 
 ## Dependencies
-Express: Web framework for Node.js.
-Helmet: Security middleware for Express.
+- Express: Web framework for Node.js.
+- Helmet: Security middleware for Express.
+
+## **Build and Run Docker Container with specifications:**
+   ```bash
+   docker pull adityas011/my-http-server
