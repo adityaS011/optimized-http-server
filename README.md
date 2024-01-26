@@ -4,10 +4,18 @@ This project implements a simple HTTP server in Node.js using Express. The serve
 
 ## Project Structure
 
-- `index.js`: Main server file.
-- `package.json`: Project configuration file.
-- `Dockerfile`: Docker configuration file.
-- `tmt/data/`: Directory containing sample text files.
+```bash
+.
+├── controllers/
+├── routes/
+├── tmp/data/ : Directory containing sample text files.
+├── utils/
+├── Dockerfile : Docker configuration file.
+├── README.md
+├── package-lock.json
+├── package.json
+└── server.js
+```
 
 ## Setup
 
