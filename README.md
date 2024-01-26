@@ -24,7 +24,7 @@ This project implements a simple HTTP server in Node.js using Express. The serve
    npm install
 2. **Run Server Locally:**
    ```bash
-   node index.js
+   node server.js
 3. **Build and Run Docker Container with specifications:**
    ```bash
    docker build -t http-server-app .
